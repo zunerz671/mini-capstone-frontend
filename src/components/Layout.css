@@ -1,0 +1,98 @@
+.layout {
+  min-height: 100vh;
+  background-color: #FFFFFF;
+}
+
+.header {
+  background-color: #FF005C;
+  border-bottom: 4px solid #000000;
+  padding: 0;
+}
+
+.header-content {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 24px 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+  color: #000000;
+  letter-spacing: -1px;
+}
+
+.nav {
+  display: flex;
+  gap: 8px;
+  flex: 1;
+  justify-content: center;
+}
+
+.nav-link {
+  padding: 12px 24px;
+  background-color: #FFFFFF;
+  border: 3px solid #000000;
+  color: #000000;
+  font-weight: 600;
+  font-size: 14px;
+  transition: all 0.1s;
+  box-shadow: 4px 4px 0 #000000;
+}
+
+.nav-link:hover {
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0 #000000;
+}
+
+.nav-link.active {
+  background-color: #00F0FF;
+  transform: translate(4px, 4px);
+  box-shadow: 0 0 0 #000000;
+}
+
+.user-section {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.user-badge {
+  padding: 8px 16px;
+  background-color: #000000;
+  color: #00F0FF;
+  border: 3px solid #000000;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.user-name {
+  font-weight: 600;
+  color: #000000;
+}
+
+.btn-logout {
+  padding: 12px 24px;
+  background-color: #000000;
+  color: #FFFFFF;
+  border: 3px solid #000000;
+  font-weight: 600;
+  font-size: 14px;
+  box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.3);
+  transition: all 0.1s;
+}
+
+.btn-logout:hover {
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.3);
+}
+
+.main-content {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 48px 32px;
+}

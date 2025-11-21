@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'IBM Plex Mono', monospace;
+  background-color: #FFFFFF;
+  color: #000000;
+  line-height: 1.6;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+button {
+  font-family: 'IBM Plex Mono', monospace;
+  cursor: pointer;
+}
+
+input, select, textarea {
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

@@ -1,0 +1,165 @@
+.dashboard {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.page-title {
+  font-size: 64px;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 48px;
+  letter-spacing: -3px;
+}
+
+.loading {
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  padding: 64px;
+  color: #FF005C;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 24px;
+  margin-bottom: 64px;
+}
+
+.stat-card {
+  padding: 48px 32px;
+  border: 4px solid #000000;
+  box-shadow: 8px 8px 0 #000000;
+  text-align: center;
+}
+
+.stat-teams {
+  background-color: #FF005C;
+}
+
+.stat-games {
+  background-color: #00F0FF;
+}
+
+.stat-number {
+  font-size: 72px;
+  font-weight: 700;
+  color: #000000;
+  line-height: 1;
+  margin-bottom: 16px;
+}
+
+.stat-label {
+  font-size: 18px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.dashboard-section {
+  margin-bottom: 64px;
+}
+
+.section-title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 24px;
+  letter-spacing: -1px;
+}
+
+.games-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.game-card {
+  background-color: #FFFFFF;
+  border: 3px solid #000000;
+  padding: 24px;
+  box-shadow: 6px 6px 0 #000000;
+}
+
+.game-teams {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.game-team {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 1;
+}
+
+.team-name {
+  font-size: 18px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.team-score {
+  font-size: 48px;
+  font-weight: 700;
+  color: #FF005C;
+}
+
+.game-vs {
+  font-size: 24px;
+  font-weight: 700;
+  color: #000000;
+  padding: 8px 16px;
+  background-color: #00F0FF;
+  border: 3px solid #000000;
+}
+
+.standings-table {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.standing-row {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 20px;
+  background-color: #FFFFFF;
+  border: 3px solid #000000;
+  box-shadow: 4px 4px 0 #000000;
+}
+
+.standing-rank {
+  font-size: 24px;
+  font-weight: 700;
+  color: #000000;
+  min-width: 60px;
+}
+
+.standing-name {
+  font-size: 20px;
+  font-weight: 700;
+  color: #000000;
+  flex: 1;
+}
+
+.standing-stats {
+  display: flex;
+  gap: 16px;
+}
+
+.stat-win {
+  padding: 8px 16px;
+  background-color: #00F0FF;
+  border: 2px solid #000000;
+  font-weight: 700;
+}
+
+.stat-loss {
+  padding: 8px 16px;
+  background-color: #FF005C;
+  border: 2px solid #000000;
+  font-weight: 700;
+}
